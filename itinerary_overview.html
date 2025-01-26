@@ -1,0 +1,251 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Itinerary Overview - Sri Lanka Travel Planner
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-600 sticky top-0 z-50">
+   <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <a class="text-white text-lg font-bold" href="index.html">
+     Sri Lanka Travel Planner
+    </a>
+    <button class="text-white block lg:hidden">
+     <i class="fas fa-bars">
+     </i>
+    </button>
+    <div class="hidden lg:flex space-x-4">
+     <a class="text-white" href="index.html">
+      Home
+     </a>
+     <a class="text-white" href="planyourtrip.html">
+      Plan Your Trip
+     </a>
+     <a class="text-white" href="itinerary_overview.html">
+      Itinerary Overview
+     </a>
+     <div class="relative group">
+      <button class="text-white">
+       Local Experiences
+       <i class="fas fa-chevron-down">
+       </i>
+      </button>
+      <div class="absolute hidden group-hover:block bg-white text-black mt-1 rounded shadow-lg">
+       <a class="block px-4 py-2" href="srilankan_food.html">
+        Sri Lankan Food
+       </a>
+       <a class="block px-4 py-2" href="adventure.html">
+        Adventure
+       </a>
+       <a class="block px-4 py-2" href="cultural.html">
+        Cultural
+       </a>
+      </div>
+     </div>
+     <div class="relative group">
+      <button class="text-white">
+       Destinations
+       <i class="fas fa-chevron-down">
+       </i>
+      </button>
+      <div class="absolute hidden group-hover:block bg-white text-black mt-1 rounded shadow-lg">
+       <a class="block px-4 py-2" href="top_attractions.html">
+        Top Attractions
+       </a>
+       <a class="block px-4 py-2" href="destinations.html">
+        Destinations
+       </a>
+       <a class="block px-4 py-2" href="top_cities.html">
+        Top Cities
+       </a>
+      </div>
+     </div>
+     <a class="text-white" href="contact.html">
+      Contact
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="relative h-64 flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('img/p2.jpg');">
+   <div class="absolute inset-0 bg-black opacity-50">
+   </div>
+   <div class="relative z-10 text-white">
+    <h1 class="text-4xl font-bold">
+     Itinerary Overview
+    </h1>
+   </div>
+  </section>
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-8">
+   <h2 class="text-center text-2xl font-bold mb-6">
+    Choose Your Trip Duration
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- 1 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 1-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io1.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       1 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       Explore the highlights of Sri Lanka in a single day. Perfect for a quick getaway.
+      </p>
+     </div>
+    </div>
+    <!-- 2 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 2-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io2.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       2 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       A weekend adventure to experience the beauty and culture of Sri Lanka.
+      </p>
+     </div>
+    </div>
+    <!-- 3 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 3-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io3.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       3 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       Immerse yourself in the rich history and stunning landscapes over three days.
+      </p>
+     </div>
+    </div>
+    <!-- 4 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 4-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       4 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       A comprehensive tour covering major attractions and hidden gems.
+      </p>
+     </div>
+    </div>
+    <!-- 5 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 5-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io5.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       5 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       Experience the diverse culture, nature, and adventure activities over five days.
+      </p>
+     </div>
+    </div>
+    <!-- 6 Day Trip Card -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+     <img alt="Image representing a 6-day trip in Sri Lanka" class="w-full h-48 object-cover" height="300" src="img/io6.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold mb-2">
+       6 Day Trip
+      </h3>
+      <p class="text-gray-700">
+       A week-long journey to explore the best of Sri Lanka at a relaxed pace.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-6">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/3 px-4 mb-6 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       Quick Links
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="hover:underline" href="index.html">
+         Home
+        </a>
+       </li>
+       <li>
+        <a class="hover:underline" href="planyourtrip.html">
+         Plan Your Trip
+        </a>
+       </li>
+       <li>
+        <a class="hover:underline" href="Destinations.html">
+         Destinations
+        </a>
+       </li>
+       <li>
+        <a class="hover:underline" href="Localexperiences.html">
+         Local Experiences
+        </a>
+       </li>
+       <li>
+        <a class="hover:underline" href="itinerary_overview.html">
+         Itinerary Overview
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="w-full md:w-1/3 px-4 mb-6 md:mb-0">
+      <h3 class="text-lg font-bold mb-2">
+       Contact Us
+      </h3>
+      <p>
+       <b>
+        Email:
+       </b>
+       Kandy@gmail.com
+      </p>
+      <p>
+       <b>
+        Phone Number:
+       </b>
+       081 2338908
+      </p>
+     </div>
+     <div class="w-full md:w-1/3 px-4">
+      <h3 class="text-lg font-bold mb-2">
+       Follow Us
+      </h3>
+      <div class="flex justify-center space-x-4">
+       <a class="text-white" href="https://www.facebook.com">
+        <i class="fab fa-facebook fa-2x">
+        </i>
+       </a>
+       <a class="text-white" href="https://www.youtube.com">
+        <i class="fab fa-youtube fa-2x">
+        </i>
+       </a>
+       <a class="text-white" href="https://www.instagram.com">
+        <i class="fab fa-instagram fa-2x">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+    <p class="mt-6">
+     © 2024 Sri Lanka Travel Planner. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
