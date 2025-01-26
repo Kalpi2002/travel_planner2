@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.hero-section {
+    background-image: url('https://storage.googleapis.com/a1aa/image/SJIiSxDjchoXDVH3DvmLCLGdWA34laniuv1pqTG13igOdOCF.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.5rem;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
