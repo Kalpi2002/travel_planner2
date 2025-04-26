@@ -22,4 +22,4 @@ before ruun the project need to install php server and mysql server for that use
 then start the web server(apache) and mysql server
 copy travel_5926 folder to htdocs folder
 run the url
-http://travel_5926/
+http://localhost/travel_5926/
