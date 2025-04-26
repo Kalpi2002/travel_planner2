@@ -45,7 +45,9 @@ if (session_status() === PHP_SESSION_NONE) {
             <li class="nav-item d-flex align-items-center ms-3">
             <span class="nav-link text-white">Hi, <?= htmlspecialchars($_SESSION['username']) ?></span>
           </li>
-          
+          <li class="nav-item">
+            <a class="btn btn-light text-primary ms-2" href="dash.php?">Dashboard</a>
+          </li>
           <li class="nav-item">
             <a class="btn btn-light text-primary ms-2" href="auth/logout.php">Logout</a>
           </li>
@@ -59,7 +61,7 @@ if (session_status() === PHP_SESSION_NONE) {
         </li>
         <?php
           }
-         ?> 
+         ?>  
       </ul>
     </div>
   </div>
